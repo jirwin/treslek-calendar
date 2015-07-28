@@ -1,0 +1,29 @@
+{
+  "name": "treslek-calendar",
+  "version": "0.0.0",
+  "description": "A calendar plugin for treslek that announces events for a channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirwin/treslek-calendar.git"
+  },
+  "keywords": [
+    "treslek",
+    "calendar"
+  ],
+  "author": "Justin Gallardo <justin.gallardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jirwin/treslek-calendar/issues"
+  },
+  "homepage": "https://github.com/jirwin/treslek-calendar",
+  "dependencies": {
+    "async": "^1.4.0",
+    "ical": "jirwin/ical.js",
+    "moment": "^2.10.6",
+    "redis": "^0.12.1"
+  }
+}
